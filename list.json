@@ -1,0 +1,42 @@
+{
+    "hints-disable": {
+        "description": "Annoyed by the hints? Disable them easily via:",
+        "command": "project config hints.enabled false"
+    },
+    "hints-enable": {
+        "description": "Whenever you're missing the hints, enable them again via:",
+        "command": "project config hints.enabled true"
+    },
+    "plugins-install-github": {
+        "description": "Install pro-cli plugins from Github easily via:",
+        "command": "project plugins install pro-cli/share"
+    },
+    "plugins-install-git": {
+        "description": "Install pro-cli plugins from any Git repository via:",
+        "command": "project plugins install https://github.com/pro-cli/share"
+    },
+    "plugins-show-available": {
+        "description": "Wondering what kind of plugins are out there? Easy!",
+        "command": "project plugins show -a"
+    },
+    "plugins-show-installed": {
+        "description": "All installed plugins as a list:",
+        "command": "project plugins show -i"
+    },
+    "projects-open": {
+        "description": "Jump fast between projects that you previously worked on:",
+        "command": "project open PROJECTS_DIRECTORY_NAME"
+    },
+    "projects-init": {
+        "description": "Starting a new project? Initialize it with pro-cli with all services already set up:",
+        "command": "project init --type=PROJECT_TYPE PROJECT_NAME"
+    },
+    "projects-commands": {
+        "description": "Use your pro-cli.json to extend you application with useful commands!",
+        "command": ""
+    },
+    "projects-commands-everywhere": {
+        "description": "You can use all `project` commands everywhere inside of your project!",
+        "command": ""
+    }
+}
