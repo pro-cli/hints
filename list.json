@@ -23,6 +23,18 @@
         "description": "List all installed plugins:",
         "command": "project plugins show -i"
     },
+    "plugins-search": {
+        "description": "You can search for official plugins:",
+        "command": "project plugins search KEYWORD"
+    },
+    "plugins-require": {
+        "description": "Did you know you can require plugins for your project? Now you do!",
+        "command": ""
+    },
+    "plugins-install-require": {
+        "description": "Install required plugins for your project with a single command:",
+        "command": "project plugins install"
+    },
     "projects-open": {
         "description": "Jump fast between projects that you previously worked on:",
         "command": "project open PROJECTS_DIRECTORY_BASENAME"
