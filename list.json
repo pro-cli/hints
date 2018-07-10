@@ -50,5 +50,9 @@
     "projects-commands-everywhere": {
         "description": "You can use all `project` commands everywhere inside of your project!",
         "command": ""
+    },
+    "clear-buffer": {
+        "description": "Give your RAM some space by restarting the containers from time to time:",
+        "command": "project restart"
     }
 }
